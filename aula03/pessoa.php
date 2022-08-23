@@ -21,6 +21,8 @@
 
         }
 
+        
+
         //aumenta a altura em centimetros
         function crescer($centimetros){
 
@@ -42,10 +44,6 @@
             }
                         
         }
-
-
-
-
 
         public function get_codigo(){
             return $this->codigo;
@@ -89,6 +87,7 @@
         public function set_salario($par){
             $this->salario = $par:
         }
+
     }
 
     

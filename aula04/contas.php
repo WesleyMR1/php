@@ -8,11 +8,22 @@
        private $saldo;
 
        public function __construct($numAge, $numConta, $nome, $saldo){
+        
         $this->numAge = $numAge;
         $this->numConta = $numConta;
         $this->nome = $nome;
         $this->saldo = $saldo;
+
+        //chamada a outro método da classe 
+        $this->depositar($saldo);
+        $this->cancelada = false;
+
     }
+    
+        public function __destruct(){
+
+            echo "<br>Fechando conta {$this->coigo} de {$this->titular->nome} finalizado";
+        }
 
 
 
