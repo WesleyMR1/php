@@ -67,25 +67,25 @@
         return $this->numAge;
        }
        public function set_numAge($par){
-            $this->numAge = $par:
+            $this->numAge = $par;
        }
        public function get_numConta(){
         return $this->numConta;
        }
        public function set_numConta($par){
-        $this->numConta = $par:
+        $this->numConta = $par;
        }
        public function get_nome(){
         return $this->nome;
        }
        public function set_nome($par){
-        $this->numConta = $par:
+        $this->numConta = $par;
        }
        public function get_saldo(){
         return $this->saldo;
        }
        public function set_saldo($par){
-        $this->numConta = $par:
+        $this->numConta = $par;
        }
 
    } 
