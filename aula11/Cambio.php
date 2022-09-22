@@ -1,7 +1,7 @@
 <?php
 
 class Cambio{
-    $marcha;
+    var $marcha;
 
     public function __construct($marcha){
 
